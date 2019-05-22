@@ -1,0 +1,23 @@
+body {
+    background-color: #eca712;
+    text-align: center;
+  }
+  
+  h1 {
+    color: red;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    padding: 5px;
+    margin: 5px;
+  }
