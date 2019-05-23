@@ -28,8 +28,8 @@ if(process.env.JAWSDB_URL) {
 } else {
   connection = mysql.createConnection({
     host: 'localhost',
-    user: 't5nklxp6ghe26z00',
-    password: 's0tl7kqlkvxoh8oo',
+    user: 'root',
+    password: 'password',
     databse: 'burgers_db'
   });
 };
