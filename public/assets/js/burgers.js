@@ -27,7 +27,7 @@ $(function() {
       var newDevour = $(this).data("newdevour");
   
       var newDevourState = {
-        devour: newDevour
+        devoured: newDevour
       };
   
       // Send the PUT request.
@@ -42,4 +42,4 @@ $(function() {
         }
       );
     });
-  });
+});

@@ -2,7 +2,7 @@
 
     <div class="row d-flex justify-content-center">
         <div class="col-xs-12">
-            <img src="http://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG4160.png" alt="burger">
+            <img src="..\assets\img\burgerIMG.png"alt="burger">
         </div>
     </div>
     <div class="row d-flex justify-content-center">
@@ -22,8 +22,8 @@
             <h3>Burgers to Devour!</h3>
             <ul>
                 {{#each burgers}}
-                {{#unless devour}}
-                {{> burgers/burger-block devour=true}}
+                {{#unless devoured}}
+                {{> burgers/burger-block devoured=true}}
                 {{/unless}}
                 {{/each}}
             </ul>
@@ -32,9 +32,9 @@
             <h3>Burgers You Devoured!</h3>
             <ul>
                 {{#each burgers}}
-                {{#if devour}}
+                {{#if devoured}}
                 <li>
-                <p>{{this.id}}. {{this.name}}</p>
+                <p>{{this.id}}. {{this.burger_name}}</p>
                 </li>
                 {{/if}}
                 {{/each}}
