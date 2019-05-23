@@ -30,7 +30,7 @@ if(process.env.JAWSDB_URL) {
     host: 'localhost',
     user: 'root',
     password: 'password',
-    databse: 'todoagain_db'
+    databse: 'burgers_db'
   });
 };
 
